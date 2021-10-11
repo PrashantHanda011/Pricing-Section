@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pricing-head{
+    text-align: center;
+    margin: 40px;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+#pricing{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.price1,.price2,.price3{
+    border: 1px solid rgba(129, 124, 124, 0);
+    border: 1px solid rgba(129, 124, 124, 0);
+    min-height: 100vh;
+    width: 25vw;
+    padding: 20px 30px;
+    margin: 30px 10px;
+    box-shadow: 0 0 16px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+}
+
+.price1:hover{
+
+  box-shadow: 0 0 5px #8c85ff;
+ transform: scaleY(1.02);
+  transition: 0.2s; 
+}
+.price2:hover{
+
+  box-shadow: 0 0 5px #fc5185;
+ transform: scaleY(1.02);
+  transition: 0.2s; 
+}
+.price3:hover{
+  box-shadow: 0 0 5px #8c85ff;
+ transform: scaleY(1.02);
+  transition: 0.2s; 
+}
+#pricing h3{
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+    font-weight: bolder;
+    text-align: center;
+}
+.price-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tagline{
+    font-size: 1rem;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.rupee{
+    margin-bottom: 15px;
+}
+s{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: gray;
+}
+.save{
+    background-color: #8c85ff;
+    border: 2px solid #8c85ff;
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+}
+.m{
+    background-color: #fc5185;
+    border: 2px solid #fc5185;
+}
+.e-rupe{
+    margin: 10px;
+}
+.e-rupe h4{
+    font-size: 2.1rem;
+    font-weight: 1200;
+}
+.r{
+    font-size: 1.2rem;
+    color: gray;
+    margin: 6px;
+}
+.mo{
+    font-size: 1rem;
+    margin: 4px;
+    color: black;
+}
+#pricing ul{
+    list-style: none;
+}
+#pricing ul li{
+    margin: 15px 10px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+}
+.green{
+    color: #7FDABC;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.yellow{
+    color: hsl(39, 85%, 67%);
+    width: 12px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.red{
+    color: red;
+    width: 12px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.price-btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+ 
+}
+.p-btn{
+    border: 1px solid #8c85ff;
+    padding: 10px 20px;
+    background-color:#8c85ff ;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.b2{
+    border: 1px solid #fc5185;
+    padding: 10px 20px;
+    background-color:#fc5185 ;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .price1, .price2, .price3{
+        width: 30vw;
+    }
+}
+@media only screen and (max-width: 890px) {
+    .price1, .price2, .price3{
+        width: 40vw;
+    }
+}
+@media only screen and (max-width: 710px){
+    .price1, .price2, .price3{
+        width: 80vw;
+    }
+}
